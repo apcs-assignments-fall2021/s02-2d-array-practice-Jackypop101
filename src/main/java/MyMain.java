@@ -124,7 +124,7 @@ public class MyMain {
         }
         for (int row = 0; row < mat.length; row++){
             for (int col = 0; col < mat[0].length; col++){
-                for (int i = 0; row < arr.size(); i++){
+                for (int i = 0; i < arr.size(); i++){
                     if (arr.get(i) == mat[row][col]){
                         w ++;
                     }
